@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    }
+.leftimg{
+    flex: 1;
+}
+
+.righttext{
+    flex: 1;
+    background-color: #6D9773;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 100px;
+    font-size: larger;
+}
+
+.righttext h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+ul.text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding-bottom: 150px;
+    
+}
+.text li{
+    text-align:50PX center;
+    color: white;
+    list-style: none;
+    line-height: 30px;
+    padding-top: 15px;
+    
+    
+}
+
+
